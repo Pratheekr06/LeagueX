@@ -1,0 +1,19 @@
+.Brand {
+  margin: auto;
+  font-family: "Pacifico", cursive;
+  font-size: x-large;
+}
+
+.Brand a {
+  color: white;
+}
+
+.Brand a:hover {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+.Fixed {
+  position: fixed;
+  top: 0;
+}

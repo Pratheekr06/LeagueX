@@ -1,0 +1,82 @@
+.Head {
+  background-color: #343a40 !important;
+  color: white;
+}
+
+.Main {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.Main:hover {
+  background-color: #08072c !important;
+  text-decoration: none !important;
+}
+
+.t2Image {
+  float: right;
+}
+
+.card {
+  background-color: transparent !important;
+}
+
+.tab {
+  margin: 0 !important;
+  justify-content: center;
+}
+.tab a {
+  color: black !important;
+}
+.Tab {
+  background-color: #343a40 !important;
+}
+
+.Pad {
+  cursor: pointer;
+}
+
+.Pad .row {
+  margin: 0 !important;
+  padding: 10px;
+}
+
+.Pad td {
+  padding: 10px 1px 10px 1px !important;
+}
+
+.Header {
+  margin: 0 !important;
+  text-align: -webkit-center;
+}
+
+.Header th {
+  border: none !important;
+}
+.inst {
+  color: white;
+  text-align: initial;
+  padding-left: 25px;
+}
+
+.choose {
+  margin: 10px !important;
+  color: white;
+}
+
+.roles {
+  max-width: 350px !important;
+}
+
+.check {
+  padding-left: 40px;
+}
+
+.squadInfo {
+  margin: 0 !important;
+  justify-content: center;
+}
+
+.list {
+  padding: 10px;
+}
