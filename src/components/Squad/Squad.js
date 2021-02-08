@@ -327,28 +327,6 @@ class Squad extends Component {
             </ul>
           </Col>  
         </Row>
-        {/* <Row className={styles.choose}>
-          <Col xs={4}>
-            Captain: {this.state.cap}
-          </Col>
-          <Col xs={4}>
-          Vice Captain: {this.state.vCap}
-          </Col>
-          <Col xs={4}>
-            Players: <ul>
-              {selectedPlayers}
-            </ul>
-          </Col>
-        </Row> */}
-        {/* <Row className={styles.squadInfo}>
-          <OverlayTrigger
-            trigger="click"
-            placement="auto"
-            overlay={squadPopover}>
-            <Button>See your Squad</Button>
-          </OverlayTrigger>
-        </Row> */}
-
         <Card className={styles.card}>
         <Tabs className={styles.tab} defaultActiveKey="batsman" id="uncontrolled-tab-example">
           <Tab eventKey="batsman" title="BAT">

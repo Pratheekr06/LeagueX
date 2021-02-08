@@ -1,0 +1,21 @@
+.Main {
+  background-color: #343a40 !important;
+  color: white;
+}
+
+.cardBody {
+  text-decoration: none !important;
+}
+
+.cardBody:hover {
+  background-color: #08072c !important;
+  text-decoration: none !important;
+}
+
+.t2Image {
+  float: right;
+}
+
+.league-row {
+  color: white;
+}

@@ -34,7 +34,7 @@ class Home extends Component {
       return (
         <Card className={`mb-3 ${styles.Main}`} key={data.id}>
         <Card.Header as="h6" className="text-center">{`${data.t1_short_name} vs ${data.t2_short_name} ${data.match_type}`}</Card.Header>
-        <Card.Body as={NavLink} to={'/squad/' + data.id} className={styles.cardBody}>
+        <Card.Body className={styles.cardBody}>
           <Row>
             <Col xs={4}>
               <img src={data.t1_image} alt={data.t1_name} width="80px" />
@@ -46,6 +46,8 @@ class Home extends Component {
               <p className="text-center">
                 {data.match_status}
               </p>
+              <Button size="sm" as={NavLink} to={'/squad/' + data.id} style={{ display: 'table', margin: '10px auto' }}>Create Squad</Button>
+              <Button size="sm" as={NavLink} to={'/leagues/' + data.id} style={{ display: 'table', margin: '10px auto' }}>Leagues</Button>
             </Col>
             <Col xs={4}>
               <img src={data.t2_image} alt={data.t2_name} className={styles.t2Image} width="80px" />
