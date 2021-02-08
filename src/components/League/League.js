@@ -27,7 +27,7 @@ class Home extends Component {
   }
 
   render() {
-    let matchData = this.state.leagues.map((data) => {
+    let leagueData = this.state.leagues.map((data) => {
       return (
         <Card className={`mb-3 ${styles.Main}`} key={data.id}>
         <Card.Header as="h6" className="text-center">{data.display_name.toUpperCase()}</Card.Header>
@@ -72,7 +72,7 @@ class Home extends Component {
         <Header />
         <Container fluid className={styles.Main}>
             <h4 className="text-center">Upcoming Leagues</h4>
-            {matchData}
+            {leagueData}
         </Container>
       </>
     );
